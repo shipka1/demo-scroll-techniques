@@ -1,1 +1,29 @@
-/* developer styles go here */
+section {
+    padding: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.horizontal-content {
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    scrollbar-width: none;
+    height: 237.7px;
+}
+
+.horizontal-content > div {
+    flex: 0 0 330px;
+    background-color: #3f1917;
+    margin: 1rem 0.5rem;
+    height: 187px;
+    transition: 300ms ease-in;
+}
+
+.horizontal-content > div:hover,
+.horizontal-content > div:active {
+    flex: 0 0 346.5px;
+    height: 205.7px;
+}
