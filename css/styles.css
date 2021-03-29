@@ -2,6 +2,11 @@ section {
     padding: 1rem;
 }
 
+h3 {
+    color: #fff;
+    font-size: 4rem;
+}
+
 p {
     margin-bottom: 1.5rem;
 }
@@ -12,6 +17,11 @@ p {
     overflow: scroll;
     scrollbar-width: none;
     height: 237.7px;
+}
+
+.horizontal-content::-webkit-scrollbar {
+    background: transparent;
+    width: 0;
 }
 
 .horizontal-content > div {
@@ -26,4 +36,14 @@ p {
 .horizontal-content > div:active {
     flex: 0 0 346.5px;
     height: 205.7px;
+}
+
+.parallax-image {
+    background-image: url(../img/movie.jpg);
+    background-position: top center;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    background-attachment: fixed;
 }
